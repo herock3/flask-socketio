@@ -1,4 +1,4 @@
-import psutil
+
 import time
 
 from threading import Lock
@@ -9,7 +9,7 @@ from flask_socketio import SocketIO, emit
 # Set this variable to "threading", "eventlet" or "gevent" to test the
 # different async modes, or leave it set to None for the application to choose
 # the best option based on installed packages.
-from demo_02.getfigure import getfigure,getdata
+from crawlerStock.getfigure import getfigure,getdata
 
 async_mode = None
 
